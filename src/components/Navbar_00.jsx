@@ -3,7 +3,8 @@ import Wrapper from "../assets/wrappers/Navbar_00";
 import { Link } from "react-router-dom";
 
 const Navbar_00 = () => {
-    return <Wrapper>
+    return (
+        <Wrapper>
         <header className="header">
       <div className="header-row container" role="navigation" aria-label="Main">
         <div className="header-left">
@@ -13,70 +14,70 @@ const Navbar_00 = () => {
         </div>
         <div className="header-right">
           <ul className="main-menu">
-            <li className="menu-item"><a href="#" className="active">Home</a></li>
+            <li className="menu-item"><Link to="/" className="active">Home</Link></li>
 
             <li className="menu-item mega-menu">
-              <a href="#">Mega menu +</a>
+              <Link to="/">Mega menu + </Link>
               <div className="mega-menu-wrapper slideInUp">
                 <div className="mega-menu-col">
                   <h5>Menu block 1</h5>
                   <ul className="mega-sub-menu">
-                    <li><a href="#">Menu block item 1</a></li>
-                    <li><a href="#">Menu block item 2</a></li>
-                    <li><a href="#">Menu block item 3</a></li>
-                    <li><a href="#">Menu block item 4</a></li>
-                    <li><a href="#">Menu block item 5</a></li>
+                    <li><Link to="/">Menu block item 1</Link></li>
+                    <li><Link to="/">Menu block item 2</Link></li>
+                    <li><Link to="/">Menu block item 3</Link></li>
+                    <li><Link to="/">Menu block item 4</Link></li>
+                    <li><Link to="/">Menu block item 5</Link></li>
                   </ul>
                 </div>
                 <div className="mega-menu-col">
                   <h5>Menu block 2</h5>
                   <ul className="mega-sub-menu">
-                    <li><a href="#">Menu block item 1</a></li>
-                    <li><a href="#">Menu block item 2</a></li>
-                    <li><a href="#">Menu block item 3</a></li>
-                    <li><a href="#">Menu block item 4</a></li>
-                    <li><a href="#">Menu block item 5</a></li>
+                    <li><Link to="/">Menu block item 1</Link></li>
+                    <li><Link to="/">Menu block item 2</Link></li>
+                    <li><Link to="/">Menu block item 3</Link></li>
+                    <li><Link to="/">Menu block item 4</Link></li>
+                    <li><Link to="/">Menu block item 5</Link></li>
                   </ul>
                 </div>
                 <div className="mega-menu-col">
                   <h5>Menu block 3</h5>
                   <ul className="mega-sub-menu">
-                    <li><a href="#">Menu block item 1</a></li>
-                    <li><a href="#">Menu block item 2</a></li>
-                    <li><a href="#">Menu block item 3</a></li>
-                    <li><a href="#">Menu block item 4</a></li>
-                    <li><a href="#">Menu block item 5</a></li>
+                    <li><Link to="/">Menu block item 1</Link></li>
+                    <li><Link to="/">Menu block item 2</Link></li>
+                    <li><Link to="/">Menu block item 3</Link></li>
+                    <li><Link to="/">Menu block item 4</Link></li>
+                    <li><Link to="/">Menu block item 5</Link></li>
                   </ul>
                 </div>
                 <div className="mega-menu-col">
                   <h5>Menu block 4</h5>
                   <ul className="mega-sub-menu">
-                    <li><a href="#">Menu block item 1</a></li>
-                    <li><a href="#">Menu block item 2</a></li>
-                    <li><a href="#">Menu block item 3</a></li>
-                    <li><a href="#">Menu block item 4</a></li>
-                    <li><a href="#">Menu block item 5</a></li>
+                    <li><Link to="/">Menu block item 1</Link></li>
+                    <li><Link to="/">Menu block item 2</Link></li>
+                    <li><Link to="/">Menu block item 3</Link></li>
+                    <li><Link to="/">Menu block item 4</Link></li>
+                    <li><Link to="/">Menu block item 5</Link></li>
                   </ul>
                 </div>
               </div>
             </li>
 
             <li className="menu-item dropdown">
-              <a href="#">Demo +</a>
+              <Link to="/">Demo +</Link>
               <div className="sub-menu-wrapper slideInUp">
                 <ul className="sub-menu">
-                  <li className="menu-item"><a href="/static_00">W3-BlogStatic_00</a></li>
-                  <li className="menu-item"><a href="/localjson_00">W3-BlogLocalJson_00</a></li>
-                  <li className="menu-item"><a href="/node_00">W4-BlogNode</a></li>
-                  <li className="menu-item"><a href="#">W5-BlogSupa_00</a></li>
+                  <li className="menu-item"><Link to="/static_00">W3-BlogStatic_00</Link></li>
+                  <li className="menu-item"><Link to="/localjson_00">W3-BlogLocalJson_00</Link></li>
+                  <li className="menu-item"><Link to="/node_00">W4-BlogNode</Link></li>
+                  <li className="menu-item"><Link to="/">W5-BlogSupa_00</Link></li>
                 </ul>
               </div>
             </li>
-            <li className="menu-item"><a href="#">Blog</a></li>
-            <li className="menu-item"><a href="#">Contact</a></li>
+            <li className="menu-item"><Link to="/">Blog</Link></li>
+            <li className="menu-item"><Link to="/">Contact</Link></li>
           </ul>
           <a
-            href="#"
+            href="/"
             id="hamburger-icon"
             className="mobile-toggler"
             aria-label="Mobile Menu"
@@ -86,72 +87,73 @@ const Navbar_00 = () => {
 
         <div id="mobile-menu" className="mobile-menu hidden slideInDown">
           <ul>
-            <li className="menu-item"><a href="#" className="active">Home</a></li>
+            <li className="menu-item"><Link to="/" className="active">Home</Link></li>
 
             <li className="menu-item mega-menu">
-              <a href="#">Mega menu +</a>
+              <Link to="/">Mega menu +</Link>
               <div className="mega-menu-wrapper">
                 <div className="mega-menu-col">
                   <h5>Menu block 1</h5>
                   <ul className="mega-sub-menu">
-                    <li><a href="#">Menu block item 1</a></li>
-                    <li><a href="#">Menu block item 2</a></li>
-                    <li><a href="#">Menu block item 3</a></li>
-                    <li><a href="#">Menu block item 4</a></li>
-                    <li><a href="#">Menu block item 5</a></li>
+                    <li><Link to="/">Menu block item 1</Link></li>
+                    <li><Link to="/">Menu block item 2</Link></li>
+                    <li><Link to="/">Menu block item 3</Link></li>
+                    <li><Link to="/">Menu block item 4</Link></li>
+                    <li><Link to="/">Menu block item 5</Link></li>
                   </ul>
                 </div>
                 <div className="mega-menu-col">
                   <h5>Menu block 2</h5>
                   <ul className="mega-sub-menu">
-                    <li><a href="#">Menu block item 1</a></li>
-                    <li><a href="#">Menu block item 2</a></li>
-                    <li><a href="#">Menu block item 3</a></li>
-                    <li><a href="#">Menu block item 4</a></li>
-                    <li><a href="#">Menu block item 5</a></li>
+                    <li><Link to="/">Menu block item 1</Link></li>
+                    <li><Link to="/">Menu block item 2</Link></li>
+                    <li><Link to="/">Menu block item 3</Link></li>
+                    <li><Link to="/">Menu block item 4</Link></li>
+                    <li><Link to="/">Menu block item 5</Link></li>
                   </ul>
                 </div>
                 <div className="mega-menu-col">
                   <h5>Menu block 3</h5>
                   <ul className="mega-sub-menu">
-                    <li><a href="#">Menu block item 1</a></li>
-                    <li><a href="#">Menu block item 2</a></li>
-                    <li><a href="#">Menu block item 3</a></li>
-                    <li><a href="#">Menu block item 4</a></li>
-                    <li><a href="#">Menu block item 5</a></li>
+                    <li><Link to="/">Menu block item 1</Link></li>
+                    <li><Link to="/">Menu block item 2</Link></li>
+                    <li><Link to="/">Menu block item 3</Link></li>
+                    <li><Link to="/">Menu block item 4</Link></li>
+                    <li><Link to="/">Menu block item 5</Link></li>
                   </ul>
                 </div>
                 <div className="mega-menu-col">
                   <h5>Menu block 4</h5>
                   <ul className="mega-sub-menu">
-                    <li><a href="#">Menu block item 1</a></li>
-                    <li><a href="#">Menu block item 2</a></li>
-                    <li><a href="#">Menu block item 3</a></li>
-                    <li><a href="#">Menu block item 4</a></li>
-                    <li><a href="#">Menu block item 5</a></li>
+                    <li><Link to="/">Menu block item 1</Link></li>
+                    <li><Link to="/">Menu block item 2</Link></li>
+                    <li><Link to="/">Menu block item 3</Link></li>
+                    <li><Link to="/">Menu block item 4</Link></li>
+                    <li><Link to="/">Menu block item 5</Link></li>
                   </ul>
                 </div>
               </div>
             </li>
 
             <li className="menu-item dropdown">
-              <a href="#">Demo</a>
+              <Link to="/">Demo</Link>
               <div className="sub-menu-wrapper">
                 <ul className="sub-menu">
-                  <li className="menu-item"><a href="/static_00">W3-BlogStatic_00</a></li>
-                  <li className="menu-item"><a href="/localjson_00">W3-BlogLocalJson_00</a></li>
-                  <li className="menu-item"><a href="/node_00">W4-BlogNode</a></li>
-                  <li className="menu-item"><a href="#">W5-BlogSupa_00</a></li>
+                  <li className="menu-item"><Link to="/static_00">W3-BlogStatic_00</Link></li>
+                  <li className="menu-item"><Link to="/localjson_00">W3-BlogLocalJson_00</Link></li>
+                  <li className="menu-item"><Link to="/node_00">W4-BlogNode</Link></li>
+                  <li className="menu-item"><Link to="/">W5-BlogSupa_00</Link></li>
                 </ul>
               </div>
             </li>
-            <li className="menu-item"><a href="#">Blog</a></li>
-            <li className="menu-item"><a href="#">Contact</a></li>
+            <li className="menu-item"><Link to="/">Blog</Link></li>
+            <li className="menu-item"><Link to="/">Contact</Link></li>
           </ul>
         </div>
       </div>
     </header>
-</Wrapper>;
+</Wrapper>
+    )
 };
 
 export default Navbar_00;

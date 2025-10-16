@@ -8,6 +8,7 @@ const BlogLocalJsonPage_00 = () => {
   const [name, setName] =useState ('max920612') ;
   const [id , setId] = useState(213410300);
   const [blogs_00, setBlogs_00] = useState(blogData_00);
+  console.log('blogs_00', blogs_00);
     return (
     <div>
         <section className="blogs">
