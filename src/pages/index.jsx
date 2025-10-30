@@ -4,3 +4,5 @@ export { default as BlogStaticPage_00 } from "./BlogStaticPage_00";
 export { default as BlogLocalJsonPage_00 } from "./BlogLocalJsonPage_00";
 export { default as BlogNodePage_00 } from "./BlogNodePage_00";
 export { default as BlogLocalJsonPage2_00 } from "./BlogLocalJsonPage2_00";
+export { default as BookListPage_00 } from "./BookListPage_00";
+export { default as BlogSupaPage_00 } from "./BlogSupaPage_00";

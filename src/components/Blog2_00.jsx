@@ -21,7 +21,7 @@ const Blog2_00 = ({id, img, category, title, descrip}) => {
                     </span>
                     <h3>{title}</h3>
                     <p>{descrip}</p>
-                    <div>
+                    <div className="flex justify-between items-center">
                     <a href="#">read more</a>
                     <button type="button" className="text-red-700
                     bg-red-100 capitalize px-2 py-1 hover:bg-red-300

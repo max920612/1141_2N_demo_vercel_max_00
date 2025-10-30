@@ -66,10 +66,11 @@ const Navbar_00 = () => {
               <Link to="/">Demo +</Link>
               <div className="sub-menu-wrapper slideInUp">
                 <ul className="sub-menu">
+                  <li className="menu-item"><Link to="/booklist_00">W2-BookList_00</Link></li>
                   <li className="menu-item"><Link to="/static_00">W3-BlogStatic_00</Link></li>
-                  <li className="menu-item"><Link to="/localjson_00">W3-BlogLocalJson_00</Link></li>
-                  <li className="menu-item"><Link to="/node_00">W4-BlogNode</Link></li>
-                  <li className="menu-item"><Link to="/">W5-BlogSupa_00</Link></li>
+                  <li className="menu-item"><Link to="/localjson_00">W4-BlogLocalJson_00</Link></li>
+                  <li className="menu-item"><Link to="/node_00">W5-BlogNode</Link></li>
+                  <li className="menu-item"><Link to="/Supa_00">W6-BlogSupa_00</Link></li>
                   <li className="menu-item"><Link to="/localjson2_00">W7-BlogLocalJson2_00</Link></li>
                 </ul>
               </div>
